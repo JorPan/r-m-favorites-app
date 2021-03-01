@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
 
-export default function Card(props){
-
-    return (
-        <li>
-          <h2>Name</h2>
-          <img src={} alt="character-image"/>
-        </li>
-    )
+export default function Card({ character, addFavorite }) {
+  return (
+    <li>
+      <h2>{character.name}</h2>
+      <img src={character.image} alt="character-image" />
+    </li>
+  );
 }

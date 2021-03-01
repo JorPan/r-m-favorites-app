@@ -10,6 +10,7 @@
 }
 .character-list img {
   width: 250px;
+  height: max-content;
 }
 
 .favorites-list {
@@ -26,7 +27,7 @@
   background-color: rgb(255, 217, 0);
 }
 
-.favorites-list img{
+.favorites-list img {
   width: 200px;
 }
 
